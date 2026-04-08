@@ -1269,9 +1269,9 @@ document.querySelectorAll('.tpill[data-theme]').forEach(pill => {{
   <span class="foot-copy">Feito com <span class="jelly-heart">❤️</span> carinho para casais que sonham juntos.</span>
 </footer>
 
-<button class="float-cta" id="floatCta">
+<button class="float-cta" id="floatCta" onclick="window.location.href='https://madsystemics.github.io/SynaDemo/'">
   ✦ Começar grátis agora
-  <button class="float-close" id="floatClose">×</button>
+  <button class="float-close" id="floatClose" onclick="event.stopPropagation()">×</button>
 </button>
 
 
@@ -1280,7 +1280,7 @@ document.querySelectorAll('.tpill[data-theme]').forEach(pill => {{
     <div class="exit-toast-title">Espera — antes de sair 👀</div>
     <div class="exit-toast-sub">Acesso antecipado grátis. Só por tempo limitado.</div>
   </div>
-  <button class="exit-toast-btn">Quero entrar →</button>
+  <button class="exit-toast-btn" onclick="window.location.href='https://madsystemics.github.io/SynaDemo/'">Quero entrar →</button>
   <button class="exit-close" id="exitClose">×</button>
 </div>
 
